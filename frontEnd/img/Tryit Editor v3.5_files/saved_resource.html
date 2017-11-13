@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_hide_show -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<script src="./jquery.min.js.download"></script>
+<script>
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show").click(function(){
+        $("p").show();
+    });
+   var x= document.getElementById("select").innerHTML;
+   if(x == "bbbbb")
+   {
+    $("p").hide();
+   }
+});
+</script>
+</head>
+<body contenteditable="false">
+
+<p>If you click on the "Hide" button, I will disappear.</p>
+<select id="select">
+<option>aaaaa</option>
+<option value="bbbbb">bbbbb</option>
+</select>
+
+<button id="show">Show</button>
+<button id="hide">hide</button>
+
+
+
+</body></html>
